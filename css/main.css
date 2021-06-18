@@ -1,3 +1,41 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+}
+
+header {
+    background-color: burlywood;
+    margin: 0;
+    padding: 10px;
+}
+
+#form-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.form-item {
+    padding-right: 10px;
+}
+
+#radio-title {
+    margin-top: 0px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+#album-list {
+    display: flex;
+    justify-content: space-between;
 }
