@@ -35,12 +35,33 @@ header > h1 {
 
 #radio-title {
     margin-top: 0px;
+    padding-right: 10px;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
     padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.button {
+    background-color:white;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    align-self: center;
+    text-decoration: none;
+    border: 2px solid black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    justify-content: center;
+    justify-self: center;
+    padding-top:2px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
 }
 
 ul {
@@ -72,7 +93,14 @@ ul {
     height: 200px;
     padding-bottom: 25px;
     margin-top:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#album-list > li:hover {
+    background-color: black;
+    color:white;
+}
+
 
 #form-section {
     background-color: white;
